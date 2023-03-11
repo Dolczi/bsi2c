@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Strona B</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form>
+			<table>
+				<tr>
+					<td colspan="2">
+						<label for="m">Male</label>
+						<input type="radio" id="m" name="gender" value="M">
+ 						<label for="f">Female</label>
+						<input type="radio" id="f" name="gender" value="F">
+  						<label for="o">Other</label>
+						<input type="radio" id="o" name="gender" value="O">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fname">First name:</label>
+					</td>
+					<td>
+						<input type="text" id="fname" name="fname">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="lname">Last name:</label>
+					</td>
+					<td>
+						<input type="text" id="lname" name="lname">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="street">Street:</label>
+					</td>
+					<td>
+						<input type="text" id="street" name="street">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="city">City:</label>
+					</td>
+					<td>
+						<input type="text" id="city" name="city">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="hnumber">House number:</label>
+					</td>
+					<td>
+						<input type="number" id="hnumber" name="hnumber" min="1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="fnumber">Flat number:</label>
+					</td>
+					<td>
+						<input type="number" id="fnumber" name="fnumber" min="1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="dlicence">Driving licence:</label>
+					</td>
+					<td>
+						<input type="checkbox" id="dlicence" name="dlicence" value="dlicence">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pnumber">Phone number (without country calling code):</label>
+					</td>
+					<td>
+						<input type="tel" id="pnumber" name="pnumber" placeholder="000-000-000" patter="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="bday">Date of birth:</label>
+					</td>
+					<td>
+						<input type="date" id="bday" name="bday">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pesel">Pesel:</label>
+					</td>
+					<td>
+						<input type="number" id="pesel" name="pesel" min="10000000000" max="99999999999">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pcode">Postcode:</label>
+					</td>
+					<td>
+						<input type="text" id="pcode" name="pcode" placeholder="00-000" patter="[0-9]{2}-[0-9]{3}">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="suggestions">Suggestions:</label>
+					</td>
+					<td>
+						<textarea id="suggestions" name="suggestions" rows="6" cols="50" maxlength="300"></textarea>
+					</td>
+				</tr>
+			</table>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Clear">
+		</form>
+	</body>
+</html>
